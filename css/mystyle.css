@@ -1,0 +1,49 @@
+html {
+    font-size: 100%;
+}
+
+.title-bar {
+    background-color: #9edec3;
+}
+
+#content-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+#title-links a {
+    color: white;
+}
+
+.off-canvas-wrapper {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+#offCanvas {
+    background-color: #8cc8af;
+    box-shadow: none;
+}
+
+ul li a{
+    color: white;
+}
+
+#content {
+    background-color:  #9edec3;
+    max-width: 30rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+#name {
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#small-info {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
