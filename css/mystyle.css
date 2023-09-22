@@ -1,5 +1,6 @@
 * {
     font-family: Comfortaa;
+    color: white;
 }
 
 html {
@@ -51,7 +52,8 @@ ul li a{
     color: white;
 }
 
-#content {
+#content,
+#projects .cell {
     background-color:  #9edec3;
     max-width: 30rem;
     color: white;
@@ -59,6 +61,20 @@ ul li a{
     border-style: dashed;
     border-width: 0.3rem;
     border-color: #d1f0e3;
+}
+
+.title {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+#projects .cell {
+    padding: 1rem;
 }
 
 #name {
@@ -80,7 +96,8 @@ h3 {
     font-weight: 500;
 }
 
-p {
+p,
+a {
     color: white;
 }
 
@@ -90,4 +107,19 @@ img {
     border-style: inset;
     border-width: 0.5rem;
     border-color: #8cc8af;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media i {
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #555;
 }
