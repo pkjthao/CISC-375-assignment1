@@ -83,3 +83,11 @@ h3 {
 p {
     color: white;
 }
+
+img {
+    max-width: 70%;
+    border-radius: 1rem;
+    border-style: inset;
+    border-width: 0.5rem;
+    border-color: #8cc8af;
+}
